@@ -1,14 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { attributes } from "@/content/home.md";
 
 export default function Home() {
+  let { title, cats } = attributes;
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
+        <h1>{title}</h1>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
