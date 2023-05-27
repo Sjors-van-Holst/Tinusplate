@@ -1,12 +1,12 @@
 # Lanxiang Vermeulen
 
-This is the source code for the [Lanxiang Vermeulen's Portfolio](https://lxframes.nl/), a [Next.js](https://nextjs.org/) project designed by Lanxiang Vermeulen and developed by [Sjors van Holst](https://sjorsvanholst.nl/)! The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the source code for the Tinusplate, a boilerplate [Next.js](https://nextjs.org/) project. Tinusplate uses the same tech stack as the one employed for every commercial website developed by [Sjors van Holst](https://sjorsvanholst.nl/). The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The portfolio showcases the work and achievements of Lanxiang Vermeulen.
+Tinusplate can be used as a starting point for similar projects that require a reliable, modern, and well-structured tech stack.
 
 ## Setup and development
 
-This project uses PNPM for package management. To get started, first install PNPM globally (if you haven't already):
+This project uses PNPM for package management. To get started, first install PNPM globally:
 
 ```bash
 npm install -g pnpm
@@ -26,7 +26,7 @@ pnpm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-The project uses [Decap CMS](https://decapcms.org/) to manage content, and [next/font](https://nextjs.org/docs/app/api-reference/components/font) to automatically optimize and load Google Fonts.
+Tinusplate uses [Decap CMS](https://decapcms.org/) for content management, [next/font](https://nextjs.org/docs/app/api-reference/components/font) to automatically optimize and load Google Fonts, and integrates TypeScript, ESLint and Prettier for code quality and consistency.
 
 ## Code Quality
 
@@ -42,8 +42,25 @@ To format your code, use:
 pnpm run format
 ```
 
-All pull requests will be automatically checked by GitHub Actions for linting and formatting issues.
+Every push to the main branch will be automatically checked by GitHub Actions for linting and formatting issues.
 
 ## Deployment
 
-The portfolio is hosted on [Vercel](https://vercel.com/). Every push to the main branch will trigger an automatic deployment.
+The Tinusplate project can be hosted on any platform that supports Next.js, such as [Vercel](https://vercel.com/). Every push to the main branch can be configured to trigger an automatic deployment.
+
+## Packages
+
+Tinusplate comes with a number of preconfigured packages:
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [React DOM](https://reactjs.org/docs/react-dom.html)
+- [Node.js types](https://www.npmjs.com/package/@types/node)
+- [React types](https://www.npmjs.com/package/@types/react)
+- [React DOM types](https://www.npmjs.com/package/@types/react-dom)
+- [ESLint](https://eslint.org/)
+- [ESLint Config Next](https://www.npmjs.com/package/eslint-config-next)
+- [ESLint Config Prettier](https://www.npmjs.com/package/eslint-config-prettier)
+- [Prettier](https://prettier.io/)
+- [Sass](https://sass-lang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
