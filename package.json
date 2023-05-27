@@ -9,7 +9,7 @@
     "build": "next build",
     "format": "prettier --write --ignore-path .gitignore .",
     "format:check": "prettier --check --ignore-path .gitignore .",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "echo 'Please use PNPM for package management' && exit 1"
   },
   "dependencies": {
     "next": "13.4.4",
