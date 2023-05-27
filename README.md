@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9e2729bc-9427-49e5-b8bf-850c3aed3221/deploy-status)](https://app.netlify.com/sites/tinusplate/deploys)
+
 # Lanxiang Vermeulen
 
 This is the source code for the Tinusplate, a boilerplate [Next.js](https://nextjs.org/) project. Tinusplate uses the same tech stack as the one employed for every commercial website developed by [Sjors van Holst](https://sjorsvanholst.nl/). The project was bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
