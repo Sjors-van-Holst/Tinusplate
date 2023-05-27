@@ -1,15 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import { parseMarkdown } from "@/utils/markdown";
-
 export default function Home() {
-  const { title } = parseMarkdown("home.md");
-
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <h1>{ title }</h1>
+        <h1>Bruh</h1>
         <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
