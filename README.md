@@ -4,7 +4,7 @@ This is the source code for the [Lanxiang Vermeulen's Portfolio](https://lxframe
 
 The portfolio showcases the work and achievements of Lanxiang Vermeulen.
 
-## Setup and Development
+## Setup and development
 
 This project uses PNPM for package management. To get started, first install PNPM globally (if you haven't already):
 
